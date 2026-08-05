@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #000;
+  /* The canvas is sized to the window, so any scrollbar would shrink the
+     viewport and trigger another resize. Keep the page from scrolling at all. */
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+/* Forces the browser to load the title fonts before the canvas draws them */
+.font-warm {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  font-family: "Creepster", "Nosifer", cursive;
+}

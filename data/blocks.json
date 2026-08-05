@@ -1,0 +1,63 @@
+{
+  "legend": {
+    "note": "Mansion (level 1). Edit tiles[] to change the layout. Each string is one row, exactly 25 chars. Walls are '@' and the renderer picks the straight/corner/tee/cross piece from the neighbours automatically.",
+    ".": "floor â€” walkable",
+    "@": "wall â€” solid, auto-tiled",
+    "T": "table â€” solid",
+    "D": "dinnertable â€” solid",
+    "H": "chairback â€” decorative, walkable",
+    "G": "sign â€” solid",
+    "1": "carpetcorner top-left",
+    "4": "carpetcorner top-right",
+    "5": "carpetcorner bottom-right",
+    "6": "carpetcorner bottom-left",
+    "2": "carpetmiddle",
+    "3": "carpettop top edge",
+    "7": "carpettop right edge",
+    "8": "carpettop bottom edge",
+    "9": "carpettop left edge"
+  },
+  "cols": 25,
+  "rows": 24,
+  "tileSize": 40,
+  "spawn": {
+    "x": 180,
+    "y": 180
+  },
+  "vampire": {
+    "x": 860,
+    "y": 700
+  },
+  "door": {
+    "x": 960,
+    "y": 360,
+    "w": 40,
+    "h": 80
+  },
+  "tiles": [
+    "@@@@@@@@@@@@@@@@@@@@@@@@@",
+    "@TT......@..TT.....TT...@",
+    "@........@..............@",
+    "@........@.............T@",
+    "@........@.....HTH.....T@",
+    "@.......T@..............@",
+    "@.......T@.......TT.....@",
+    "@........@@@@..@@@@@@@@@@",
+    "@........@.........@T...@",
+    "@........@..13334........",
+    "@...........92227........",
+    "@...........68885..@...T@",
+    "@........@.........@@@@@@",
+    "@@@@@@..@@@@@@@@..@@....@",
+    "@TTTTT...@.........@....@",
+    "@T.......@.........@...T@",
+    "@T..........HDDH.......T@",
+    "@T...........DD........T@",
+    "@T..TT...@..HDDH...@....@",
+    "@T..HH...@...DD....@....@",
+    "@T.......@..HDDH...@T...@",
+    "@T.......@...HH....@T...@",
+    "@G.......@.........@T...@",
+    "@@@@@@@@@@@@@@@@@@@@@@@@@"
+  ]
+}

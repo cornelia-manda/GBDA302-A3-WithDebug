@@ -1,0 +1,69 @@
+{
+  "legend": {
+    "note": "Courtyard (level 2). Edit tiles[] to change the layout. Each string is one row, left-to-right, exactly 50 chars.",
+    ".": "cobblestone \u00e2\u20ac\u201d walkable",
+    ",": "mossy cobblestone \u00e2\u20ac\u201d walkable",
+    "i": "ivy ground cover \u00e2\u20ac\u201d walkable",
+    "*": "puddle \u00e2\u20ac\u201d walkable, but stepping on one slips you and ends the run",
+    "L": "stone wall, left side (0 rotation)",
+    "R": "stone wall, right side (180)",
+    "U": "stone wall, top edge (90)",
+    "B": "stone wall, bottom edge (270)",
+    "N": "stone corner, top-left (0)",
+    "E": "stone corner, top-right (90)",
+    "S": "stone corner, bottom-right (180)",
+    "W": "stone corner, bottom-left (270)",
+    "X": "boarded gate set into the wall \u00e2\u20ac\u201d solid, decorative",
+    "#": "hedge \u00e2\u20ac\u201d solid",
+    "%": "flowering hedge \u00e2\u20ac\u201d solid",
+    "~": "pool water \u00e2\u20ac\u201d solid",
+    "o": "well, top-left quarter (0)",
+    "p": "well, top-right quarter (90)",
+    "q": "well, bottom-right quarter (180)",
+    "v": "well, bottom-left quarter (270)",
+    "k": "crate \u00e2\u20ac\u201d solid"
+  },
+  "cols": 50,
+  "rows": 24,
+  "tileSize": 40,
+  "spawn": {
+    "x": 100,
+    "y": 460
+  },
+  "vampire": {
+    "x": 1820,
+    "y": 140
+  },
+  "door": {
+    "x": 1960,
+    "y": 680,
+    "w": 40,
+    "h": 80
+  },
+  "tiles": [
+    "NUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUE",
+    "L..##%###%###...####.............##%##%#####.....R",
+    "L..#............#%##.............####...####.....R",
+    "L..#..........*iiiii.#%##........####...#%##.....R",
+    "L..%.................####.......iiiii.....##..k..R",
+    "L..#................iiiiii.....*..........#%..k..R",
+    "L..####%###%#.....iiiii*..............*...##.....R",
+    "L..iiiiiiiiii.......#%##..##%#...........iii.....R",
+    "L.......*......*....#........#...*...........*...R",
+    "L...................%.,,,,,,.#...iiii............R",
+    "X....#%###..........#.,,op,,.#....###.*..........R",
+    "X....####%............,,vq,,.%....#%#.........*..R",
+    "X...iiiiii.......*....,,,,,,.#.*..###..iiiiiii...R",
+    "L...........*................#..........######...R",
+    "L..kk*...iiiiiiiii..##%#..#%##..........###%##...R",
+    "L..k......##%######iiiiiiiiiii..........######...R",
+    "L.iiiiiiii#.............................#iiiii...R",
+    "L.........#..........###%####%#.........%......*..",
+    "L..#####..#..~~~~~............#.........#.........",
+    "L..#%###..%..~~~~~............%..................R",
+    "L.*###%#..#..~~~~~.*.k........###%####......*....R",
+    "L........................*.....iiiiiii...........R",
+    "L..................................*.............R",
+    "WBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBS"
+  ]
+}
